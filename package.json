@@ -2,7 +2,7 @@
   "name": "react-portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Valeegaray1.github.io/portafolio-react",
+  "homepage": "https://Valeegaray1.github.io/Portafolio-React",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
