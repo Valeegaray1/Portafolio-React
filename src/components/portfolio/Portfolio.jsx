@@ -17,7 +17,7 @@ export const Portfolio = () => {
           </div>
           <h3>Contador de clicks React</h3>
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/ContadorClicks' className='btn' target='_blank'>Github</a>
+          <a href='https://github.com/Valeegaray1/ContadorClicks' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
           </div>
         </article>
         <article className='portfolio_item'>
@@ -26,7 +26,7 @@ export const Portfolio = () => {
           </div>
           <h3>Calculadora React</h3>
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/calculadoraReact' className='btn' target='_blank'>Github</a>
+          <a href='https://github.com/Valeegaray1/calculadoraReact' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
           </div>
         </article>
         <article className='portfolio_item'>
@@ -35,7 +35,7 @@ export const Portfolio = () => {
           </div>
           <h3>Web React</h3>
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/apptestimonios2' className='btn' target='_blank'>Github</a>
+          <a href='https://github.com/Valeegaray1/apptestimonios2' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
           </div>
         </article>
       </div>

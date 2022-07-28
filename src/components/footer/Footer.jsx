@@ -11,10 +11,10 @@ export const Footer = () => {
       <a href='#' className='footer__logo'>Valentina</a>
       <ul className='permalinks'>
         <li> <a href='#'>Home</a></li>
-        <li> <a href='about'>About me</a></li>
-        <li> <a href='experience'>Experience</a></li>
-        <li> <a href='portfolio'>Portafolio</a></li>
-        <li> <a href='contact'>Contacto</a></li>
+        <li> <a href='#about'>About me</a></li>
+        <li> <a href='#experience'>Experience</a></li>
+        <li> <a href='#portfolio'>Portafolio</a></li>
+        <li> <a href='#contact'>Contacto</a></li>
       </ul>
 
       <div className="footer__socials">
