@@ -7,13 +7,13 @@ import IMG3 from '../../assets/portfolio3.jpg'
 export const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Mi trabajo reciente</h5>
+      <h2>Portafolio</h2>
 
       <div className="portfolio__container">
         <article className='portfolio_item'>
           <div className="portfolio__item-image">
-              <img src={IMG1} alt="" />
+              <img src={IMG1} alt="" className='portfolio__prueba' />
           </div>
           <h3>Contador de clicks React</h3>
           <div className='porfolio__item-cta'>
@@ -22,7 +22,7 @@ export const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio__item-image">
-              <img src={IMG3} alt="" />
+              <img src={IMG3} alt="" className='portfolio__prueba' />
           </div>
           <h3>Calculadora React</h3>
           <div className='porfolio__item-cta'>
@@ -31,7 +31,7 @@ export const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio__item-image">
-              <img src={IMG2} alt="" />
+              <img src={IMG2} alt="" className='portfolio__prueba' />
           </div>
           <h3>Web React</h3>
           <div className='porfolio__item-cta'>

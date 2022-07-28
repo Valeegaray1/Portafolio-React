@@ -1,16 +1,11 @@
 
-
 .certificado__item-img {
     display: flex;
     padding:2.5rem;
     margin: 0 auto;
-    width: 32rem;
-    aspect-ratio: 1/1;
+    width: 55%;
     overflow: hidden;
     border-radius: 2rem;
     background: var(--color-bg-variant);
     user-select: none;
-    
-
 }
-

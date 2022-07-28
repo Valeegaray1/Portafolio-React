@@ -6,8 +6,8 @@ import {BsWhatsapp} from 'react-icons/bs'
 export const Contact = () => {
   return (
     <section id='contact'>
-      <h5>get in touch</h5>
-      <h2>contact me</h2>
+      <h5>Get in touch</h5>
+      <h2>Contactame</h2>
 
       <div className="contact__container">
         <div className="contact__options">

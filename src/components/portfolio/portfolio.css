@@ -22,6 +22,10 @@
     overflow: hidden;
 }
 
+.portfolio__prueba {
+    aspect-ratio: 4/3;
+}
+
 .portfolio_item h3 {
     margin: 1.2rem 0 2rem;
 }
