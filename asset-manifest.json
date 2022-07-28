@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portafolio-React/static/css/main.04f6a668.css",
-    "main.js": "/Portafolio-React/static/js/main.e263a5a4.js",
-    "static/media/CV.pdf": "/Portafolio-React/static/media/CV.a546346eb137c3db407b.pdf",
+    "main.js": "/Portafolio-React/static/js/main.06caa233.js",
+    "static/media/CV.pdf": "/Portafolio-React/static/media/CV.d1a0a9fb79907aaf988e.pdf",
     "static/media/certificadoJ.png": "/Portafolio-React/static/media/certificadoJ.35a507a3cd5bc5c00c17.png",
     "static/media/certificadoR.png": "/Portafolio-React/static/media/certificadoR.7d75f18f22f617794ee1.png",
     "static/media/certificadoN.png": "/Portafolio-React/static/media/certificadoN.0cdf8a75d09471e8c8a7.png",
@@ -15,10 +15,10 @@
     "static/media/certificadoM.png": "/Portafolio-React/static/media/certificadoM.bf89da04684bb5be76ed.png",
     "index.html": "/Portafolio-React/index.html",
     "main.04f6a668.css.map": "/Portafolio-React/static/css/main.04f6a668.css.map",
-    "main.e263a5a4.js.map": "/Portafolio-React/static/js/main.e263a5a4.js.map"
+    "main.06caa233.js.map": "/Portafolio-React/static/js/main.06caa233.js.map"
   },
   "entrypoints": [
     "static/css/main.04f6a668.css",
-    "static/js/main.e263a5a4.js"
+    "static/js/main.06caa233.js"
   ]
 }
