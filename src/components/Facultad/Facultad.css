@@ -1,0 +1,88 @@
+.texto {
+    text-align: center;
+}
+
+.facultad__container {
+    
+    gap: 15%;
+    
+}
+
+.facultad__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.facultad__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    scroll-behavior: auto;
+scroll-behavior: smooth;
+
+}
+
+.facultad__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+
+}
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.facultad h5 {
+    font-size: 0.95rem;
+    
+}
+
+.facultad__card small {
+    font-size: 0.8rem;
+    color: var(--color-light);
+
+}
+
+.facultad__content p {
+   margin: 2rem 0 2.6rem;
+   color: var(--color-light); 
+}
+
+.scroll {
+scroll-behavior: auto;
+scroll-behavior: smooth;
+}
+
+/*media queries medium*/
+
+
+/*media queries small*/
+
+@media screen and (max-width: 600px) {
+.facultad__me { 
+    width: 65%;
+    margin: 0 auto 3rem;
+}
+
+
+.facultad__cards {
+    display: block;
+    padding: 0.5rem;
+    
+
+}
+
+.facultad__content {
+    text-align: center;
+}
+
+.facultad_content p {
+    margin: 1.5rem 0;
+} 
+}

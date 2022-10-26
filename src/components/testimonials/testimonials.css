@@ -9,3 +9,9 @@
     background: var(--color-bg-variant);
     user-select: none;
 }
+
+@media screen and (max-width: 600px) {
+    .certificado__item-img {
+        width: 100%;
+    }
+    }

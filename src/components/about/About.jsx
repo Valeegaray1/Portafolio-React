@@ -46,7 +46,7 @@ export const About = () => {
           </div>
 
           <p>
-            Me sumergí no hace mucho en el mundo de la programación y logró atraparme, busco superarme constantemente con mis proyectos, aprendiendo nuevas tecnologías, dedicandole su tiempo correspondiente para llegar al resultado deseado.
+            Soy una persona tranquila, se escuchar y expresarme, cuido mi salud física y mental, me mantengo activa, me alimento bien y voy a terapia, tengo hobbies y me dedico al estudio, en la facultad y de forma independiente, me gusta aprender de los demás.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Hablemos</a>

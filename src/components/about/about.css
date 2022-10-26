@@ -79,16 +79,25 @@
 /*media queries small*/
 
 @media screen and (max-width: 600px) {
-.about__me { 
-    width: 65%;
-    margin: 0 auto 3rem;
+
+    .about__container { 
+        display: block;
+    }
+
+    .about__me { 
+    display: flex;
+    width: 75%;
+
+    }
+
+.about__me-image {
+    display: block;
+ 
 }
 
 
 .about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-
+  display: block;
 }
 
 .about__content {
