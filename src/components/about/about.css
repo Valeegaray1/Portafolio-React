@@ -72,12 +72,7 @@
 }
 
 /*media queries medium*/
-
-
-/*media queries small*/
-
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 1000px) {
     .about__container {
         display: block;
     }
@@ -112,4 +107,6 @@
     .about_content p {
         margin: 1.5rem 0;
     }
+    
 }
+

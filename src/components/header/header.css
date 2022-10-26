@@ -74,11 +74,7 @@ header{
 /*media queries medium*/
 
 @media screen and (max-width: 1024px) {
-    header {
-        height: 30vh;
-
-    }
-    
+  
 }
 /*media queries small*/
 
