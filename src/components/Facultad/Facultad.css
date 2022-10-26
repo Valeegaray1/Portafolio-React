@@ -68,8 +68,12 @@ scroll-behavior: smooth;
 .facultad__me { 
     width: 65%;
     margin: 0 auto 3rem;
+    
 }
 
+.facultad__card{
+    margin: 15px 0px;
+}
 
 .facultad__cards {
     display: block;

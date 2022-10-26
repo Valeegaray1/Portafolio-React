@@ -75,15 +75,20 @@ header{
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 30vh;
 
     }
+    
 }
 /*media queries small*/
 
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        
+    }
+    .me {
+        width: 22rem;
     }
 
     .header__socials,
