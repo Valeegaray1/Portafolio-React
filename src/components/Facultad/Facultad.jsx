@@ -20,6 +20,13 @@ export const About = () => {
             <article className='facultad__card'>
               <TbMilitaryAward className='about__icon' />
               <h5>Materias aprobadas</h5>
+              <small>•Análisis Estructurado</small><br></br>
+              <small>•Programación robótica - Arduino - C</small><br></br>
+              <small>•Estadística</small><br></br>
+              <small>•Base de datos</small><br></br>
+              <small>•Sistemas operativos</small><br></br>
+              <small>•Estructura de datos - Java</small><br></br>
+              <small>•Emprendedorismo</small><br></br>
               <small>•Inglés técnico</small><br></br>
               <small>•Electrónica digital</small><br></br>
               <small>•Introducción a la programación</small><br></br>
@@ -31,14 +38,15 @@ export const About = () => {
 
             <article className='facultad__card'>
               <FiUsers className='about__icon' />
-              <h5>Materias terminando de cursar</h5>
-              <small>•Análisis Estructurado</small><br></br>
-              <small>•Programación robótica</small><br></br>
-              <small>•Estadística</small><br></br>
-              <small>•Base de datos</small><br></br>
-              <small>•Sistemas operativos</small><br></br>
-              <small>•Estructura de datos - Java</small><br></br>
-              <small>•Emprendedorismo</small><br></br>
+              <h5>Materias cursando</h5>
+              <small>•Emprendedorismo 2</small><br></br>
+              <small>•Lenguaje SQL</small><br></br>
+              <small>•Marketing digital</small><br></br>
+              <small>•Arquitectura Software</small><br></br>
+              <small>•Redes e Internet</small><br></br>
+              <small>•Analisis OO</small><br></br>
+              <small>•POO</small><br></br>
+              
 
             </article>
 
@@ -46,13 +54,7 @@ export const About = () => {
             <article className='facultad__card'>
               <AiOutlineFolderOpen className='about__icon' />
               <h5>Próximas materias a cursar</h5>
-              <small>•Emprendedorismo 2 y 3</small><br></br>
-              <small>•Lenguaje SQL</small><br></br>
-              <small>•Marketing digital</small><br></br>
-              <small>•Arquitectura Software</small><br></br>
-              <small>•Redes e Internet</small><br></br>
-              <small>•Analisis OO</small><br></br>
-              <small>•POO</small><br></br>
+              <small>•Emprendedorismo 3</small><br></br>
               <small>•Lenguaje no SQL</small><br></br>
               <small>•Ingenieria Software</small><br></br>
               <small>•Taller de análisis</small><br></br>
@@ -76,7 +78,7 @@ export const About = () => {
           </div>
 
           <p className='texto'>
-            Actualmente cursando la tecnicatura, luego tengo planeado hacer la licenciatura.
+            Actualmente cursando la tecnicatura (Segundo año), luego tengo planeado hacer la licenciatura.
           </p>
         </div>
       </div>
