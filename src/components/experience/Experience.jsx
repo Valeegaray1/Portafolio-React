@@ -10,18 +10,18 @@ export const Experience = () => {
 
       <div className='container experience__container'>
         <div className="experience__frontend">
-          <h3> Frontend Development</h3>
+          <h3> Desarrolladora web</h3>
           <div className="experience__content">
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>HTML</h4>
+              <h4>HTML/CSS</h4>
               <small className='text-light'></small>
             </article>
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>CSS</h4>
+              <h4>TYPESCRIPT</h4>
               <small className='text-light'></small>
             </article>
 
@@ -45,7 +45,7 @@ export const Experience = () => {
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>BOOTSTRAP</h4>
+              <h4>NODE.JS</h4>
               <small className='text-light'></small>
             </article>
 
