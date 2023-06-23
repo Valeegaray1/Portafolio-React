@@ -27,19 +27,31 @@ export const Experience = () => {
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>FIGMA, BOOTSTRAP</h4>
+              <h4>FIGMA</h4>
               <small className='text-light'></small>
             </article>
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>REACT, ANGULAR</h4>
+              <h4>BOOTSTRAP</h4>
               <small className='text-light'></small>
             </article>
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>GOOGLE APPS SCRIPT</h4>
+              <h4>REACT</h4>
+              <small className='text-light'></small>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <h4>ANGULAR</h4>
+              <small className='text-light'></small>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <h4>APPS SCRIPT</h4>
               <small className='text-light'></small>
             </article>
 
@@ -51,7 +63,19 @@ export const Experience = () => {
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>MySQL, PHPMyAdmin</h4>
+              <h4>MySQL</h4>
+              <small className='text-light'></small>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <h4>SQL</h4>
+              <small className='text-light'></small>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <h4>PHPMyAdmin</h4>
               <small className='text-light'></small>
             </article>
 

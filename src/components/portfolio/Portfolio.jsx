@@ -24,7 +24,7 @@ export const Portfolio = () => {
           
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/IrinaGauna' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/IrinaGauna/' className='btn' target='_blank' rel="noopener noreferrer">Github Pages</a>
+          <a href='https://valeegaray1.github.io/IrinaGauna/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -36,7 +36,7 @@ export const Portfolio = () => {
           <h4>Desarrollado con React, javascript, HTML y CSS </h4><br></br>
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/buscadordeimagenesReact' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/buscadordeimagenesReact/' className='btn' target='_blank' rel="noopener noreferrer">Github Pages</a>
+          <a href='https://valeegaray1.github.io/buscadordeimagenesReact/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -48,7 +48,7 @@ export const Portfolio = () => {
           <h4>Desarrollada con EJS, Javascript, PHPMyAdmin, MYSQL</h4><br></br>
           
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/CRUD_js_nodejs_mysql' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <a href='https://github.com/Valeegaray1/CRUD_js_nodejs_mysql' className='btn' target='_blank' rel="noopener noreferrer">GitHub</a>
         
           </div>
         </article>
@@ -61,7 +61,7 @@ export const Portfolio = () => {
           <h4>Desarrollado con React, javascript, HTML y CSS </h4><br></br>
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/calculadoraReact' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/calculadoraReact/' className='btn' target='_blank' rel="noopener noreferrer">Github Pages</a>
+          <a href='https://valeegaray1.github.io/calculadoraReact/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -73,7 +73,7 @@ export const Portfolio = () => {
           <h4>Desarrollada con Mobirise</h4><br></br>
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/HeladeriaMobirise' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/HeladeriaMobirise/' className='btn' target='_blank' rel="noopener noreferrer">Github Pages</a>
+          <a href='https://valeegaray1.github.io/HeladeriaMobirise/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -85,7 +85,7 @@ export const Portfolio = () => {
           <h4>Desarrollado con React, javascript, HTML y CSS </h4><br></br>
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/apptestimonios2' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/appTestimonios/' className='btn' target='_blank' rel="noopener noreferrer">Github Pages</a>
+          <a href='https://valeegaray1.github.io/appTestimonios/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
         <article className='portfolio_item'>
