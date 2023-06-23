@@ -31,7 +31,7 @@ export const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Edad</h5>
-              <small>22 años</small>
+              <small>23 años</small>
 
             </article>
 

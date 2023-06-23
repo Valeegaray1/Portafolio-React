@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
 import IMG7 from '../../assets/portfolio7.jpg'
+import IMG8 from '../../assets/portfolio8.jpg'
 
 export const Portfolio = () => {
   return (
@@ -36,6 +37,19 @@ export const Portfolio = () => {
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/buscadordeimagenesReact' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
           <a href='https://valeegaray1.github.io/buscadordeimagenesReact/' className='btn' target='_blank' rel="noopener noreferrer">Github Pages</a>
+          </div>
+        </article>
+
+        <article className='portfolio_item'>
+          <div className="portfolio__item-image">
+              <img src={IMG8} alt="" className='portfolio__prueba' />
+          </div>
+          <h3>C.R.U.D</h3>
+          <h4>Desarrollada con EJS, Javascript, PHPMyAdmin, MYSQL</h4><br></br>
+          
+          <div className='porfolio__item-cta'>
+          <a href='https://github.com/Valeegaray1/CRUD_js_nodejs_mysql' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+        
           </div>
         </article>
 

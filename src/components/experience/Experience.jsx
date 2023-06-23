@@ -21,31 +21,49 @@ export const Experience = () => {
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>TYPESCRIPT</h4>
+              <h4>JAVASCRIPT, PYHTON, TYPESCRIPT</h4>
               <small className='text-light'></small>
             </article>
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>JAVASCRIPT</h4>
+              <h4>FIGMA, BOOTSTRAP</h4>
               <small className='text-light'></small>
             </article>
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>REACT</h4>
+              <h4>REACT, ANGULAR</h4>
               <small className='text-light'></small>
             </article>
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>ANGULAR</h4>
+              <h4>GOOGLE APPS SCRIPT</h4>
               <small className='text-light'></small>
             </article>
 
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <h4>NODE.JS</h4>
+              <small className='text-light'></small>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <h4>MySQL, PHPMyAdmin</h4>
+              <small className='text-light'></small>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <h4>FILEZILLA</h4>
+              <small className='text-light'></small>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <h4>GIT, GITHUB, GITHUBPAGES</h4>
               <small className='text-light'></small>
             </article>
 
