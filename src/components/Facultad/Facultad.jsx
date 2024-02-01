@@ -33,12 +33,6 @@ export const About = () => {
               <small>•Matemática</small><br></br>
               <small>•Administración</small><br></br>
               <small>•Ofimática</small><br></br>
-
-            </article>
-
-            <article className='facultad__card'>
-              <FiUsers className='about__icon' />
-              <h5>Materias cursando</h5>
               <small>•Emprendedorismo 2</small><br></br>
               <small>•Lenguaje SQL</small><br></br>
               <small>•Marketing digital</small><br></br>
@@ -46,6 +40,24 @@ export const About = () => {
               <small>•Redes e Internet</small><br></br>
               <small>•Analisis OO</small><br></br>
               <small>•POO</small><br></br>
+              <small>•Emprendedorismo 3</small><br></br>
+              <small>•Lenguaje no SQL</small><br></br>
+              <small>•Ingenieria Software</small><br></br>
+              <small>•Taller de análisis</small><br></br>
+              <small>•Programación web y móvil</small><br></br>
+
+            </article>
+
+            <article className='facultad__card'>
+              <FiUsers className='about__icon' />
+              <h5>Materias cursando</h5>
+              <small>•Ciberseguridad</small><br></br>
+              <small>•Etica y deontología</small><br></br>
+              <small>•Finanzas</small><br></br>
+              <small>•Metodologías Agiles</small><br></br>
+              <small>•QA y Testing</small><br></br>
+              <small>•Taller de redes</small><br></br>
+              <small>•Inteligencia Artificial</small><br></br>
               
 
             </article>
@@ -54,11 +66,6 @@ export const About = () => {
             <article className='facultad__card'>
               <AiOutlineFolderOpen className='about__icon' />
               <h5>Próximas materias a cursar</h5>
-              <small>•Emprendedorismo 3</small><br></br>
-              <small>•Lenguaje no SQL</small><br></br>
-              <small>•Ingenieria Software</small><br></br>
-              <small>•Taller de análisis</small><br></br>
-              <small>•Programación web y móvil</small><br></br>
               <small>•Ciberseguridad</small><br></br>
               <small>•Etica y deontología</small><br></br>
               <small>•Finanzas</small><br></br>
@@ -78,7 +85,7 @@ export const About = () => {
           </div>
 
           <p className='texto'>
-            Actualmente cursando la tecnicatura (Segundo año), luego tengo planeado hacer la licenciatura.
+            Actualmente cursando la tecnicatura (Tercer y ultimo año), luego tengo planeado hacer la licenciatura.
           </p>
         </div>
       </div>

@@ -7,6 +7,8 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
 import IMG7 from '../../assets/portfolio7.jpg'
 import IMG8 from '../../assets/portfolio8.jpg'
+import IMG9 from '../../assets/portfolio9.jpeg'
+import IMG10 from '../../assets/portfolio10.jpeg'
 
 export const Portfolio = () => {
   return (
@@ -15,18 +17,7 @@ export const Portfolio = () => {
       <h2>Portafolio</h2>
 
       <div className="portfolio__container">
-      <article className='portfolio_item'>
-          <div className="portfolio__item-image">
-              <img src={IMG5} alt="" className='portfolio__prueba' />
-          </div>
-          <h3>Página De fotografía</h3>
-          <h4>Desarrollada con Javascript, HTML y CSS, para Irina Gauna, Fotógrafa</h4><br></br>
-          
-          <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/IrinaGauna' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/IrinaGauna/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
-          </div>
-        </article>
+      
 
         <article className='portfolio_item'>
           <div className="portfolio__item-image">
@@ -37,6 +28,19 @@ export const Portfolio = () => {
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/buscadordeimagenesReact' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
           <a href='https://valeegaray1.github.io/buscadordeimagenesReact/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          </div>
+        </article>
+
+
+        <article className='portfolio_item'>
+          <div className="portfolio__item-image">
+              <img src={IMG9} alt="" className='portfolio__prueba' />
+          </div>
+          <h3>Web para el colegio de Fonoaudiologos Misiones</h3>
+          <h4>Desarrollado con React, javascript, HTML y CSS. Diseñado Con Figma. </h4><br></br>
+          <div className='porfolio__item-cta'>
+          <a href='https://github.com/Valeegaray1/CoFoMiWeb' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <a href='https://cofomi.org.ar/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -67,13 +71,13 @@ export const Portfolio = () => {
 
         <article className='portfolio_item'>
           <div className="portfolio__item-image">
-              <img src={IMG7} alt="" className='portfolio__prueba' />
+              <img src={IMG10} alt="" className='portfolio__prueba' />
           </div>
-          <h3>Página De Heladería</h3>
-          <h4>Desarrollada con Mobirise</h4><br></br>
+          <h3>Inicio IMIBIO</h3>
+          <h4>Este es la pantalla de inicio del Instituto de Biodiversidad de Misiones, proyecto que fue pausado momentaneamente.</h4><br></br>
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/HeladeriaMobirise' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/HeladeriaMobirise/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          <a href='https://github.com/Valeegaray1/imibio' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -98,6 +102,23 @@ export const Portfolio = () => {
           <a href='https://github.com/Valeegaray1/ContadorClicks' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
           </div>
         </article>
+
+        <article className='portfolio_item'>
+          <div className="portfolio__item-image">
+              <img src={IMG5} alt="" className='portfolio__prueba' />
+          </div>
+          <h3>Página De fotografía</h3>
+          <h4>Desarrollada con Javascript, HTML y CSS, para Irina Gauna, Fotógrafa</h4><br></br>
+          
+          <div className='porfolio__item-cta'>
+          <a href='https://github.com/Valeegaray1/IrinaGauna' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <a href='https://valeegaray1.github.io/IrinaGauna/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          </div>
+        </article>
+
+
+
+
       </div>
     </section>
   )
