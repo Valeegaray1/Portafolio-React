@@ -21,6 +21,8 @@ export const Testimonials = () => {
     <section id='testimonials'>
       <h5>Estudios</h5>
       <h2>Certificados</h2>
+      <p className='detail'>Para acceder a todos, <a href="https://drive.google.com/drive/folders/1VDLEqgY88ZTa3S6TZkKdZPzA3GuYn7Uh?usp=sharing" target="_blank">click aquí</a>.</p>
+      
 
       <Swiper className="certificados__container"
       modules={[Pagination]}

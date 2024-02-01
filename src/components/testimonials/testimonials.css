@@ -10,6 +10,13 @@
     user-select: none;
 }
 
+.detail{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     .certificado__item-img {
         width: 100%;
