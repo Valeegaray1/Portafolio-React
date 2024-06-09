@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import me from '../../assets/me-about.jpeg'
+import me from '../../assets/me-about.jpg'
 import { TbMilitaryAward } from 'react-icons/tb'
 import { FiUsers } from 'react-icons/fi'
 import { AiOutlineFolderOpen } from 'react-icons/ai'
@@ -31,7 +31,7 @@ export const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Edad</h5>
-              <small>23 años</small>
+              <small>24 años</small>
 
             </article>
 

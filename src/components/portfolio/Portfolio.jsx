@@ -76,8 +76,8 @@ export const Portfolio = () => {
           <h3>Inicio IMIBIO</h3>
           <h4>Este es la pantalla de inicio del Instituto de Biodiversidad de Misiones, proyecto que fue pausado momentaneamente.</h4><br></br>
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/HeladeriaMobirise' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://github.com/Valeegaray1/imibio' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          <a href='https://github.com/Valeegaray1/imibio' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <a href='https://valeegaray1.github.io/imibio/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
