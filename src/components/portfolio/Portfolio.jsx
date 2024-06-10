@@ -9,6 +9,7 @@ import IMG7 from '../../assets/portfolio7.jpg'
 import IMG8 from '../../assets/portfolio8.jpg'
 import IMG9 from '../../assets/portfolio9.jpeg'
 import IMG10 from '../../assets/portfolio10.jpeg'
+import IMG11 from '../../assets/portfolio11.jpg'
 
 export const Portfolio = () => {
   return (
@@ -17,20 +18,20 @@ export const Portfolio = () => {
       <h2>Portafolio</h2>
 
       <div className="portfolio__container">
-      
 
-        <article className='portfolio_item'>
+      <article className='portfolio_item'>
           <div className="portfolio__item-image">
-              <img src={IMG4} alt="" className='portfolio__prueba' />
+              <img src={IMG5} alt="" className='portfolio__prueba' />
           </div>
-          <h3>Buscador de imágenes React</h3>
-          <h4>Desarrollado con React, javascript, HTML y CSS </h4><br></br>
+          <h3>Página De fotografía</h3>
+          <h4>Desarrollada con Javascript, HTML y CSS, para Irina Gauna, Fotógrafa</h4><br></br>
+          
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/buscadordeimagenesReact' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/buscadordeimagenesReact/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          <a href='https://github.com/Valeegaray1/IrinaGauna' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <a href='https://valeegaray1.github.io/IrinaGauna/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
-
+      
 
         <article className='portfolio_item'>
           <div className="portfolio__item-image">
@@ -41,6 +42,18 @@ export const Portfolio = () => {
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/CoFoMiWeb' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
           <a href='https://cofomi.org.ar/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          </div>
+        </article>
+
+        <article className='portfolio_item'>
+          <div className="portfolio__item-image">
+              <img src={IMG7} alt="" className='portfolio__prueba' />
+          </div>
+          <h3>Buscador de imágenes API unsplash </h3>
+          <h4>Desarrollado con typescript </h4><br></br>
+          <div className='porfolio__item-cta'>
+          <a href='https://github.com/Valeegaray1/BuscadorUnsplash' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <a href='https://valeegaray1.github.io/BuscadorUnsplash/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -66,6 +79,18 @@ export const Portfolio = () => {
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/calculadoraReact' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
           <a href='https://valeegaray1.github.io/calculadoraReact/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          </div>
+        </article>
+
+        <article className='portfolio_item'>
+          <div className="portfolio__item-image">
+              <img src={IMG11} alt="" className='portfolio__prueba' />
+          </div>
+          <h3>Web joyería BOOSTRAP</h3>
+          <h4>Contiene navbar, carrousel, items, contacto y footer</h4><br></br>
+          <div className='porfolio__item-cta'>
+          <a href='https://github.com/Valeegaray1/Joyer-a-boostrap' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <a href='https://valeegaray1.github.io/Joyer-a-boostrap/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -105,16 +130,17 @@ export const Portfolio = () => {
 
         <article className='portfolio_item'>
           <div className="portfolio__item-image">
-              <img src={IMG5} alt="" className='portfolio__prueba' />
+              <img src={IMG4} alt="" className='portfolio__prueba' />
           </div>
-          <h3>Página De fotografía</h3>
-          <h4>Desarrollada con Javascript, HTML y CSS, para Irina Gauna, Fotógrafa</h4><br></br>
-          
+          <h3>Buscador de imágenes React</h3>
+          <h4>Desarrollado con React, javascript, HTML y CSS </h4><br></br>
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/IrinaGauna' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/IrinaGauna/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          <a href='https://github.com/Valeegaray1/buscadordeimagenesReact' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <a href='https://valeegaray1.github.io/buscadordeimagenesReact/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
+
+        
 
 
 
