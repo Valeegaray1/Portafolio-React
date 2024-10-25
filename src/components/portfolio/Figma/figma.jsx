@@ -5,6 +5,7 @@ import IMG2 from '../../../assets/figma2.jpg'
 import IMG3 from '../../../assets/figma3.jpg'
 import IMG4 from '../../../assets/figma4.jpg'
 import IMG5 from '../../../assets/figma5.jpg'
+import IMG14 from '../../../assets/bondisya.jpeg'
 
 export const Figma = () => {
   return (
@@ -23,6 +24,18 @@ export const Figma = () => {
           <h4>Diseño para móviles de un voluntariado </h4><br></br>
           <div className='porfolio__item-cta'>
           <a href='https://www.figma.com/design/vTIeUmBqG4ks5XXKMD1lJw/ManosSolidarias?m=dev&node-id=0-1&t=hQavhLfjpcJbQ9PL-1' className='btn' target='_blank' rel="noopener noreferrer">Ver</a>
+        
+          </div>
+        </article>
+
+        <article className='portfolio_item'>
+          <div className="portfolio__item-image">
+              <img src={IMG14} alt="" className='portfolio__prueba' />
+          </div>
+          <h3>Bondis Ya</h3>
+          <h4>Diseño para móviles de la app Misionera BondisYa </h4><br></br>
+          <div className='porfolio__item-cta'>
+          <a href='https://www.figma.com/design/G4bWQ75430hDvCPfoaSjHi/SUSA?node-id=0-1&t=j8HMDGhoZtptrDuQ-1' className='btn' target='_blank' rel="noopener noreferrer">Ver</a>
         
           </div>
         </article>

@@ -5,12 +5,12 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
-import IMG7 from '../../assets/portfolio7.jpg'
+import IMG7 from '../../assets/muni.jpeg'
 import IMG8 from '../../assets/portfolio8.jpg'
 import IMG9 from '../../assets/portfolio9.jpeg'
-import IMG10 from '../../assets/portfolio10.jpeg'
+import IMG10 from '../../assets/educacion.jpeg'
 import IMG11 from '../../assets/portfolio11.jpg'
-
+import IMG12 from '../../assets/Beneficios.jpeg'
 export const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -49,23 +49,22 @@ export const Portfolio = () => {
           <div className="portfolio__item-image">
               <img src={IMG7} alt="" className='portfolio__prueba' />
           </div>
-          <h3>Buscador de imágenes API unsplash </h3>
-          <h4>Desarrollado con typescript </h4><br></br>
+          <h3>Portal Administrativo Municipalidad </h3>
+          <h4>Desarrollado con React, Vite y typescript </h4><br></br>
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/BuscadorUnsplash' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/BuscadorUnsplash/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          <a href='https://municipalidad.missionup.com.ar/iniciar-sesion' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
         <article className='portfolio_item'>
           <div className="portfolio__item-image">
-              <img src={IMG8} alt="" className='portfolio__prueba' />
+              <img src={IMG12} alt="" className='portfolio__prueba' />
           </div>
-          <h3>C.R.U.D</h3>
-          <h4>Desarrollada con EJS, Javascript, PHPMyAdmin, MYSQL</h4><br></br>
+          <h3>Web beneficios</h3>
+          <h4>Desarrollada con React</h4><br></br>
           
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/CRUD_js_nodejs_mysql' className='btn' target='_blank' rel="noopener noreferrer">GitHub</a>
+          <a href='https://beneficios.missionup.com.ar/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
         
           </div>
         </article>
@@ -98,11 +97,10 @@ export const Portfolio = () => {
           <div className="portfolio__item-image">
               <img src={IMG10} alt="" className='portfolio__prueba' />
           </div>
-          <h3>Inicio IMIBIO</h3>
-          <h4>Este es la pantalla de inicio del Instituto de Biodiversidad de Misiones, proyecto que fue pausado momentaneamente.</h4><br></br>
+          <h3>Portal administrativo Educacion Misiones</h3>
+          <h4>Desarrollado con react, vite, typescript</h4><br></br>
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/imibio' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/imibio/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          <a href='https://educacion.missionup.com.ar/iniciar-sesion' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -125,18 +123,6 @@ export const Portfolio = () => {
           <h4>Desarrollado con React, javascript, HTML y CSS </h4><br></br>
           <div className='porfolio__item-cta'>
           <a href='https://github.com/Valeegaray1/ContadorClicks' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          </div>
-        </article>
-
-        <article className='portfolio_item'>
-          <div className="portfolio__item-image">
-              <img src={IMG4} alt="" className='portfolio__prueba' />
-          </div>
-          <h3>Buscador de imágenes React</h3>
-          <h4>Desarrollado con React, javascript, HTML y CSS </h4><br></br>
-          <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/buscadordeimagenesReact' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/buscadordeimagenesReact/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
