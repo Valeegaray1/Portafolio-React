@@ -9,7 +9,7 @@ import IMG7 from '../../assets/muni.jpeg'
 import IMG8 from '../../assets/portfolio8.jpg'
 import IMG9 from '../../assets/portfolio9.jpeg'
 import IMG10 from '../../assets/educacion.jpeg'
-import IMG11 from '../../assets/portfolio11.jpg'
+import IMG11 from '../../assets/michicoca.jpeg'
 import IMG12 from '../../assets/Beneficios.jpeg'
 export const Portfolio = () => {
   return (
@@ -50,7 +50,7 @@ export const Portfolio = () => {
               <img src={IMG7} alt="" className='portfolio__prueba' />
           </div>
           <h3>Portal Administrativo Municipalidad </h3>
-          <h4>Desarrollado con React, Vite y typescript </h4><br></br>
+          <h4>Desarrollado con React, Vite y typescript. Consulta distintos endpoints para gestionar beneficios. Asignar, remover, consultar. </h4><br></br>
           <div className='porfolio__item-cta'>
           <a href='https://municipalidad.missionup.com.ar/iniciar-sesion' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
@@ -85,11 +85,11 @@ export const Portfolio = () => {
           <div className="portfolio__item-image">
               <img src={IMG11} alt="" className='portfolio__prueba' />
           </div>
-          <h3>Web joyería BOOSTRAP</h3>
-          <h4>Contiene navbar, carrousel, items, contacto y footer</h4><br></br>
+          <h3>Portada michicoca</h3>
+          <h4>Solo Html y css Desarrollada con un poquito de tiempo libre, aun en construcción.</h4><br></br>
           <div className='porfolio__item-cta'>
-          <a href='https://github.com/Valeegaray1/Joyer-a-boostrap' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-          <a href='https://valeegaray1.github.io/Joyer-a-boostrap/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
+          <a href='https://github.com/Valeegaray1/MichiCoca' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <a href='https://valeegaray1.github.io/MichiCoca/' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
         </article>
 
@@ -98,7 +98,7 @@ export const Portfolio = () => {
               <img src={IMG10} alt="" className='portfolio__prueba' />
           </div>
           <h3>Portal administrativo Educacion Misiones</h3>
-          <h4>Desarrollado con react, vite, typescript</h4><br></br>
+          <h4>Desarrollado con react, vite, typescript. Consulta distintos endpoints para gestionar beneficios e instituciones. Asignar, remover, consultar.</h4><br></br>
           <div className='porfolio__item-cta'>
           <a href='https://educacion.missionup.com.ar/iniciar-sesion' className='btn' target='_blank' rel="noopener noreferrer">Probar</a>
           </div>
@@ -125,11 +125,6 @@ export const Portfolio = () => {
           <a href='https://github.com/Valeegaray1/ContadorClicks' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
           </div>
         </article>
-
-        
-
-
-
 
       </div>
     </section>
