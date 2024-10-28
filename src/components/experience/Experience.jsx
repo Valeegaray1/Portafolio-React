@@ -6,7 +6,7 @@ export const Experience = () => {
   return (
     <section id='experience'>
       <h5>Experiencia</h5>
-      <h2>Actualmente trabajando en PatriceParfums como encargada de la web y SEO</h2>
+      <h2>Actualmente trabajando en: <br></br> PatriceParfums como encargada de la web y SEO <br></br>Servicios Urbanos S.A : Como front end, Desarrollo portales administrativos, Consolas de comercio, webs de consultas y aplicaciones móviles.</h2>
 
       <div className='container experience__container'>
         <div className="experience__frontend">
